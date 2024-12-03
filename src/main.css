@@ -13,6 +13,23 @@ a {
   text-decoration: none;
 }
 
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "DM Serif Display", serif;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2.5px;
+}
+
+p {
+  line-height: 150%;
+}
+
+.txt-center {
+  text-align: center;
+}
+
 /* MAIN COLOR */
 
 .primary-background {
@@ -37,6 +54,10 @@ a {
 
 .tertiary-color {
   color: #F6F6F6;
+}
+
+.grey-1-color {
+  color: #4D5053;
 }
 
 /* GRID */
