@@ -75,7 +75,7 @@ p {
 }
 
 .al-end {
-  align-self: end;
+  align-items: end;
 }
 
 .d-flex {
