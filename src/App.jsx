@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
 // PAGES
 import Home from './pages/Home'
