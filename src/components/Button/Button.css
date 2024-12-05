@@ -52,3 +52,14 @@
     color: #666;
     pointer-events: none;
 }
+
+/* UNSTYLED*/
+
+.button.unstyled {
+    all: unset;
+    cursor: pointer;
+}
+
+.button.unstyled:hover {
+    filter: brightness(0.9)
+}
