@@ -32,17 +32,19 @@ function ProjectsList() {
             </div>
             <div className="projects-grid">
                 {
-                    projects.map((project) => (
-                        <div className="project-card d-flex jc-center al-center fd-column" key={project.id}>
-                            <div 
-                                className="thumb tertiary-background" 
-                                style={{ backgroundImage: `url(${project.thumb})` }}        
-                            ></div>        
-                            <h3>{project.title}</h3>
-                            <p>{project.subtitle}</p>
-                            <img src={LikedFilled} height="20px"/>
-                        </div>
-                    ))
+                    projects ?
+                        projects.map((project) => (
+                            <div className="project-card d-flex jc-center al-center fd-column" key={project.id}>
+                                <div 
+                                    className="thumb tertiary-background" 
+                                    style={{ backgroundImage: `url(${project.thumb})` }}        
+                                ></div>        
+                                <h3>{project.title}</h3>
+                                <p>{project.subtitle}</p>
+                                <img src={LikedFilled} height="20px"/>
+                            </div>
+                        )) 
+                    : null
                 }
             </div>
         </div>
